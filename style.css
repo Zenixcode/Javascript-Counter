@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.heading{
+    text-align: center;
+    font-size: 45px;
+    margin-top: 20vh;
+}
+
+.number{
+    text-align: center;
+    font-size: 75px;
+    margin-top: 10vh;
+}
+
+.btns-container{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 10vh;
+}
+
+button{
+    padding:10px 25px;
+    border-radius: 25px;
+    border: 1px solid black;
+    margin-top: 25px;
+    justify-content: space-evenly;
+    font-size: 25px;
+}
